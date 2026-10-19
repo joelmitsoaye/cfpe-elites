@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nos modules | CFPE-Elites</title>
+    <meta name="description" content="Découvrez les modules de formation du CFPE-Elites.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-content">
+
+        <a href="index.html" class="brand">
+            <img src="assets/logo.png" alt="Logo CFPE-Elites">
+        </a>
+
+        <button class="menu-toggle" aria-label="Ouvrir le menu">
+            ☰
+        </button>
+
+        <nav class="main-nav">
+            <a href="index.html">Accueil</a>
+            <a href="modules.html" class="active">Nos modules</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary header-action"
+           href="https://wa.me/22898006858?text=Bonjour%20CFPE-Elites,%20je%20souhaite%20obtenir%20des%20renseignements."
+           target="_blank">
+            Nous contacter
+        </a>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-banner">
+        <div class="container">
+            <span class="eyebrow">Développez vos compétences</span>
+            <h1>Nos modules de formation</h1>
+            <p>
+                Des formations conçues pour favoriser votre insertion professionnelle,
+                votre autonomie et votre réussite entrepreneuriale.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="filters" role="group" aria-label="Filtrer les modules">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="professionnel">Professionnel</button>
+                <button class="filter-btn" data-filter="entrepreneuriat">Entrepreneuriat</button>
+                <button class="filter-btn" data-filter="numerique">Numérique</button>
+            </div>
+
+            <div id="all-modules" class="modules-grid"></div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+
+        <div>
+            <img class="footer-logo" src="assets/logo.png" alt="Logo CFPE-Elites">
+            <p>Formons aujourd'hui les élites de demain.</p>
+        </div>
+
+        <div>
+            <h3>Navigation</h3>
+            <a href="index.html">Accueil</a>
+            <a href="modules.html">Nos modules</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/22898006858" target="_blank">
+                +228 98 00 68 58
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p>© <span class="current-year"></span> CFPE-Elites SARL. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

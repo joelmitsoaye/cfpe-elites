@@ -1,0 +1,19 @@
+cfpe-elites/
+│
+├── index.html
+├── modules.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── assets/
+    ├── logo.png
+    ├── hero-formation.jpg
+    ├── etudiant-diplome.jpg
+    ├── formateur.jpg
+    ├── apprentissage.jpg
+    └── entrepreneur.jpg
